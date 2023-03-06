@@ -7,11 +7,23 @@
     <title>Nhúng Javascript</title>
 </head>
 <body>
+    <!--Chèn mã Javascript vào trong thẻ -->
+    <button type="button" onclick="alert('Xin chào!');">Click Me!</button>
+
+    <br><br>
+
+    <!--Sử dụng thẻ script và khai báo một hàm đơn giản -->
     <button type="button" onclick="showMessage();">Click Me!</button>
     <script>
         function showMessage(){
             alert('Xin chao');
         }
     </script>
+
+    <br><br>
+
+    <!--một file Javascript riêng và nhúng vào trang HTML-->
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script src="my-scripte.js"></script>
 </body>
 </html>
